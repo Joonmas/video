@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: black;
+      height: 100%;
+      overflow: hidden;
+    }
+    .video-wrapper {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <div class="video-wrapper">
+    <video src="https://pub-a55fe30725a341f3af54c773c026695b.r2.dev/video%20test/454%20test.mp4" 
+           autoplay loop muted playsinline></video>
+  </div>
+</body>
+</html>
